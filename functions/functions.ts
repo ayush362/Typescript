@@ -1,8 +1,8 @@
-function greet(person: string) {
-    return "Hello, " + person;
-}
+// function greet(person: string) {
+//     return "Hello, " + person;
+// }
 
-console.log(greet("Ayush"));
+console.log(greet());
 // console.log(greet(1)); // Will throw an error
 
 const doSomething = (person: string, age: number, isFunny: boolean) => {
@@ -10,3 +10,7 @@ const doSomething = (person: string, age: number, isFunny: boolean) => {
 };
 
 doSomething("Ayush", 21, true);
+
+function greet(person: string ="Stranger") {
+    return "Hello, " + person;
+}
