@@ -27,7 +27,7 @@ function square(num: number): number {
 
 function random(num: number) {
     if (Math.random() < 0.5) {
-        return num.toString() + " is a string";
+        return num.toString();
     }
     return num;
 }
