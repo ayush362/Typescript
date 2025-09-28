@@ -75,7 +75,7 @@ function greet(name: string | string[]): void {
     if (typeof name === "string") {
         console.log(`Hello ${name}`);
     } else {
-        for (let n in name) {
+        for (let n of name) {
             console.log(`Hello ${n}`);
         }
     }
